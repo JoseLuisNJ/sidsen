@@ -87,7 +87,7 @@
           <div class="col-xl-4 col-lg-5">
             <div class="featured-text text-center text-lg-left">
               <h4>Domótica</h4>
-              <p class="text-black-50 mb-0">La automatización y domótica es cada vez una realidad, ayudamos a cuidar el planeta con la implementación de celdas solares, calentadores de agua, regulación de energía, prendido automático de fuentes de luz, todo lo necesario para un hogar inteligente, y con conexión a su dispositivo móvil</p>
+              <p class="text-black-50 mb-0">La automatización y <a id="popover" href="#" data-content="Se llama domótica a los sistemas capaces de automatizar una vivienda o edificación de cualquier tipo, aportando servicios de gestión energética, seguridad, bienestar y comunicación, y que pueden estar integrados por medio de redes interiores y exteriores de comunicación, cableadas o inalámbricas, y cuyo control goza de cierta ubicuidad, desde dentro y fuera del hogar. Se podría definir como la integración de la tecnología en el diseño inteligente de un recinto cerrado." rel="popover" data-placement="bottom" data-original-title="La Domótica" data-trigger="hover" data-placement="top">domótica</a> es cada vez una realidad, ayudamos a cuidar el planeta con la implementación de celdas solares, calentadores de agua, regulación de energía, prendido automático de fuentes de luz, todo lo necesario para un hogar inteligente, y con conexión a su dispositivo móvil</p>
             </div>
           </div>
         </div>
@@ -258,6 +258,9 @@
 
     <!-- Custom scripts for this template -->
     <script src="js/grayscale.min.js"></script>
+    <script>
+      $("#popover").popover({ trigger: "hover" });
+    </script>
 
   </body>
 
